@@ -1,0 +1,7 @@
+[{"id": "a1b2c3", "text": "Platform Engineer", "hostedUrl": "https://jobs.lever.co/beta/a1b2c3",
+  "applyUrl": "https://jobs.lever.co/beta/a1b2c3/apply", "createdAt": 1760000000000,
+  "categories": {"location": "Remote - US", "team": "Infra", "commitment": "Full-time"},
+  "descriptionPlain": "Own our Kubernetes platform.",
+  "lists": [{"text": "Requirements", "content": "<li>Terraform</li><li>AWS</li>"}],
+  "additionalPlain": "Benefits included.",
+  "salaryRange": {"currency": "USD", "interval": "per-year-salary", "min": 180000, "max": 220000}}]

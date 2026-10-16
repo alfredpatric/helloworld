@@ -1,0 +1,75 @@
+# Your profile: the agent's single source of truth. It only rephrases what is
+# here and never invents experience. Keep this file private (it is gitignored).
+
+person:
+  first_name: Alex
+  last_name: Example
+  email: alex@example.com
+  phone: "+1 555 010 0000"
+  location: Brooklyn, NY
+  linkedin: https://www.linkedin.com/in/alex-example
+  github: https://github.com/alex-example
+  website: ""
+
+headline: Backend engineer focused on payments and data infrastructure
+summary: >
+  Backend engineer with 7 years building payment and data systems in Python and Go.
+  Led the move of a monolith to event-driven services processing $2B/year.
+
+skills: [Python, Go, PostgreSQL, Kafka, AWS, Terraform, Kubernetes, gRPC, dbt, Airflow]
+
+# Put every role and every bullet you might ever use; the agent picks per job.
+experience:
+  - company: Paystream
+    title: Senior Software Engineer
+    start: Mar 2022
+    end: Present
+    location: New York, NY
+    bullets:
+      - Led migration of the payments ledger from a Django monolith to Go services on Kafka, cutting p99 settlement latency from 9s to 400ms.
+      - Designed idempotent payout APIs used by 3,000+ merchants processing $2B/year.
+      - Mentored 4 engineers; ran the backend interview loop.
+  - company: DataNest
+    title: Software Engineer
+    start: Jun 2018
+    end: Feb 2022
+    location: Remote
+    bullets:
+      - Built Airflow + dbt pipelines feeding the analytics warehouse (40 TB, 300 daily jobs).
+      - Reduced AWS spend 35% by right-sizing EMR clusters and moving cold data to S3 Glacier.
+
+education:
+  - school: State University
+    degree: B.S. Computer Science
+    year: "2018"
+
+# Answers used verbatim for common application questions. Anything legal or
+# factual that is not here is flagged for you instead of guessed.
+standard_answers:
+  work_authorization: Authorized to work in the US for any employer
+  requires_sponsorship: "No"
+  salary_expectation: "$190,000 base, flexible depending on total compensation"
+  notice_period: 2 weeks
+  earliest_start_date: 3 weeks after offer
+  willing_to_relocate: "No, open to remote or NYC"
+  how_did_you_hear: Company careers page
+  previously_employed_here: "No"
+  pronouns: ""
+
+# Voluntary self-identification. Leave empty to always decline.
+eeo:
+  gender: ""
+  race_ethnicity: ""
+  veteran_status: ""
+  disability_status: ""
+
+preferences:
+  target_titles: [backend engineer, software engineer, platform engineer]
+  title_exclude: [intern, principal, staff, manager, director, frontend, ios, android]
+  locations: [New York, NYC, Brooklyn]
+  remote_ok: true
+  min_salary: 170000
+  dealbreakers:
+    - Requires on-site more than 3 days per week outside New York
+    - Requires security clearance
+  companies_to_avoid: []

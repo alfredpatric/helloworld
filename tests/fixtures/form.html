@@ -1,0 +1,25 @@
+<!doctype html><html><body>
+<h1>Apply: Senior Backend Engineer</h1>
+<form id="app" onsubmit="event.preventDefault(); done();">
+  <label for="first_name">First Name *</label><input id="first_name" name="first_name" required>
+  <label for="last_name">Last Name *</label><input id="last_name" name="last_name" required>
+  <label for="email">Email *</label><input id="email" type="email" required>
+  <div class="field"><div class="label">Resume/CV *</div><input type="file" id="resume" style="display:none" required><button type="button">Attach</button></div>
+  <label for="auth">Are you legally authorized to work in the US? *</label>
+  <select id="auth" required><option>Select...</option><option>Yes</option><option>No</option></select>
+  <fieldset><legend>Will you require visa sponsorship?</legend>
+    <label><input type="radio" name="spons" value="y"> Yes</label>
+    <label><input type="radio" name="spons" value="n"> No</label></fieldset>
+  <label for="why">Why do you want to work here?</label><textarea id="why"></textarea>
+  <label for="trap" style="display:none">Leave blank</label><input id="trap" style="display:none">
+  <button type="submit">Submit application</button>
+</form>
+<script>
+function done() {
+  const f = document.getElementById('resume').files.length;
+  const sp = document.querySelector('input[name=spons]:checked');
+  document.body.innerHTML = '<h2>Thank you for applying!</h2><p id="r">' +
+    [first_name.value, email.value, auth.value, sp && sp.value, why.value, f].join('|') + '</p>';
+}
+</script>
+</body></html>

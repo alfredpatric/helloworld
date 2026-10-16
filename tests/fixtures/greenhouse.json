@@ -1,0 +1,8 @@
+{"jobs": [
+ {"id": 4012345, "title": "Senior Backend Engineer, Payments", "updated_at": "2026-10-10T12:00:00-04:00",
+  "location": {"name": "New York, NY"}, "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/4012345",
+  "content": "&lt;p&gt;Build the &lt;strong&gt;ledger&lt;/strong&gt;.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Go&lt;/li&gt;&lt;li&gt;Kafka&lt;/li&gt;&lt;/ul&gt;"},
+ {"id": 4012346, "title": "iOS Engineer", "updated_at": "2026-10-11T12:00:00-04:00",
+  "location": {"name": "San Francisco, CA"}, "absolute_url": "https://job-boards.greenhouse.io/acme/jobs/4012346",
+  "content": "&lt;p&gt;Swift&lt;/p&gt;"}
+]}

@@ -1,0 +1,26 @@
+# Which job boards to watch. Use the company's slug from its careers URL:
+#   Greenhouse  https://job-boards.greenhouse.io/<slug>
+#   Lever       https://jobs.lever.co/<slug>
+#   Ashby       https://jobs.ashbyhq.com/<slug>
+sources:
+  greenhouse: [stripe, airbnb]
+  lever: [plaid]
+  ashby: [ramp, notion]
+
+policy:
+  # Semi-automatic: strong fits (score >= auto_submit_threshold) are submitted without
+  # review, but only when every form question has a confident answer from your profile.
+  # Everything >= review_threshold waits in `review` for you. Start with auto_submit off
+  # until you trust the drafts.
+  auto_submit: false
+  auto_submit_threshold: 85
+  review_threshold: 65
+  max_applications_per_day: 10
+  max_jobs_scored_per_run: 50
+
+model:
+  name: claude-opus-5-5
+  scoring_effort: low      # quick fit check per role
+  writing_effort: medium   # resume tailoring, cover letter, form answers
+
+data_dir: data

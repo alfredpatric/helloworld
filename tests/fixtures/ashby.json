@@ -1,0 +1,8 @@
+{"jobs": [
+ {"id": "uuid-1", "title": "Software Engineer, Data", "location": "New York", "isRemote": true, "isListed": true,
+  "jobUrl": "https://jobs.ashbyhq.com/gamma/uuid-1", "applyUrl": "https://jobs.ashbyhq.com/gamma/uuid-1/application",
+  "descriptionPlain": "dbt and Airflow.", "publishedAt": "2026-10-01T00:00:00Z",
+  "compensation": {"compensationTierSummary": "$170K – $210K"}},
+ {"id": "uuid-2", "title": "Hidden role", "location": "NYC", "isListed": false,
+  "jobUrl": "https://jobs.ashbyhq.com/gamma/uuid-2", "descriptionPlain": "x"}
+]}
