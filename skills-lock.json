@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "product-management": {
+      "source": "rajann44/pm-skills",
+      "sourceType": "github",
+      "skillPath": "product-management/SKILL.md",
+      "computedHash": "3ac47298478ad17eac34020b8e00b9ebad1436879c197208129122f5af0b3fe2"
+    }
+  }
+}
